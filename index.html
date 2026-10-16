@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>URGlab · Redirigiendo</title>
+  <script src="/redirigir.js"></script>
+  <style>
+    :root { --bg: #f4f6f9; --text: #14202b; --muted: #5a6b7b; --primary: #1a6fad; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0e1a27; --text: #e8eef4; --muted: #9fb0c1; --primary: #5aa9e6; }
+    }
+    body { margin: 0; background: var(--bg); color: var(--text); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 560px; margin: 0 auto; padding: 64px 16px; line-height: 1.5; }
+    a { color: var(--primary); }
+    p { color: var(--muted); }
+    .aviso { display: none; }
+    .no-disponible .aviso { display: block; }
+    .no-disponible .redirigiendo { display: none; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="redirigiendo">
+      <h1>Esta herramienta se ha mudado</h1>
+      <p>Te estamos llevando a su nueva dirección. Si no pasa nada, entra en <a href="https://urglab.com/">urglab.com</a>.</p>
+    </div>
+    <div class="aviso">
+      <h1>Esta herramienta ya no está disponible aquí</h1>
+      <p>Puedes ver todas las herramientas de URGlab en <a href="https://urglab.com/">urglab.com</a>.</p>
+    </div>
+  </main>
+</body>
+</html>
