@@ -9,6 +9,7 @@
   var MAPA = {
     'simulador-vm': '/simulador-ventilacion/',
     'defib-physics': '/desfibrilacion-pcr/',
+    'formacion-bomberos-ucv': '/bomberos-ucv-formacion/',
     'urglab': null,
     'urglabv2': null
   };
